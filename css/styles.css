@@ -51,11 +51,12 @@ body {
 
 .introduction h1,
 .introduction h3 {
-	overflow: auto;
+
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 30px;
+     margin: 0 0 9em 3em;
 }
 
 
@@ -71,7 +72,7 @@ body {
 	color: white;
 	position: center;
 	margin: 0 auto;
-	margin-top: 20em;
+
 	margin-bottom: 0 auto;
 	display: block;	
 }
