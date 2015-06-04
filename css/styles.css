@@ -1,5 +1,7 @@
 body {
     background-color: white;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -40,7 +42,7 @@ body {
 }
 
 .introduction{
-
+   overflow: auto;
 	background-image: url('../images/first-background.jpg');
 	background-size: cover;
 	background-position: center bottom;
@@ -51,12 +53,19 @@ body {
 
 .introduction h1,
 .introduction h3 {
-
+   
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 30px;
-     margin: 0 0 9em 3em;
+   
+}
+
+.introduction h1{
+margin: 10em 0 0em 0;
+}
+.introduction h3{
+margin: 1em 0 3em 0;
 }
 
 
@@ -83,7 +92,7 @@ body {
     background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
-     text-decoration: none;
+     
 
 }
 .cases .content {
@@ -114,19 +123,38 @@ body {
     font-size: 1.313rem;
 }
 
-.devices li{
-	text-decoration: none;
+
+.content-footer{
+    border-top: solid 1px #ccc;
+
+    text-align: center;
+    height: 15rem;
+   
+    /*background-color: #34495e;*/
+    margin-bottom: 0px;
+    margin-top: 0em;
+}
+.content-footer img {
+    margin-top: 4em;
+    padding: 0.9em;
+
+    
+    }
+
+.content-footer ul li{
+    display: inline;
+    
 }
 
-ul li  {
-    text-decoration: none;
+.social li {
+    display: inline;
+    letter-spacing: 3em;
 }
+.copy{
 
-.cases li a { text-decoration: none; }
-
-
-
-
+    font-weight: 200px;
+    font-size: 0.9rem;
+}
 
 
 
